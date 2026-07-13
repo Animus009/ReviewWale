@@ -1,0 +1,6 @@
+{
+  "name": "Brand Review & Feedback Platform",
+  "description": "Enterprise review generation platform connecting premium brands to local Indian households for authentic video feedback, Google reviews, and product testing, featuring a live campaign monitoring dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

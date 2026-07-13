@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Play, ShieldCheck, Heart, ArrowRight, Star, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
-
+import reviewImage from '../assets/images/regenerated_image_1783966999173.png';
 interface HeroProps {
   onGetStarted: () => void;
 }
@@ -139,7 +139,7 @@ export default function Hero({ onGetStarted }: HeroProps) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-3.5 left-3.5 right-3.5 text-white">
                   <span className="inline-flex items-center gap-1 text-[9px] uppercase font-black tracking-wider bg-rose-600 text-white px-2 py-0.5 rounded-full mb-1.5 shadow-sm">
-                    <Heart className="w-2.5 h-2.5 fill-current" /> Social Impact Cover
+                    <Heart className="w-2.5 h-2.5 fill-current" /> <img src={reviewImage} alt="Social Impact Cover" className="w-full h-full object-cover" />
                   </span>
                   <h4 className="text-xs sm:text-sm font-black tracking-tight leading-tight">Empowering Regional Families One Review At A Time</h4>
                 </div>

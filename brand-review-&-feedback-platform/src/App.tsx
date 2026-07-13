@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import reviewImage from './assets/images/regenerated_image_1783966999173.png'
 import Hero from './components/Hero';
 import { AboutUs, StatsSection, ProcessSection, TeamSection } from './components/CompanyProfile';
 import Services from './components/Services';
